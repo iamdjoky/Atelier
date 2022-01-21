@@ -54,7 +54,6 @@ const printData = (data) => {
     let articleTitle = document.createElement('h2')
     let articleImg = document.createElement('img')
     let articleAuteur = document.createElement('p')
-    let articleEditeur = document.createElement('p')
     let articleTopic = document.createElement('p')
 
     articleTitle.innerHTML = title
@@ -62,14 +61,12 @@ const printData = (data) => {
     articleImg.alt = "livre"
     articleTopic.innerHTML = topics
     articleAuteur.innerHTML =  author
-    articleEditeur.innerHTML =  editor
     
     
     newArticle.appendChild(articleTitle)
     newArticle.appendChild(articleImg)
     newArticle.appendChild(articleTopic)
     newArticle.appendChild(articleAuteur)
-    newArticle.appendChild(articleEditeur)
 
     document.body.appendChild(newArticle)
 

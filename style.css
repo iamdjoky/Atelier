@@ -23,7 +23,7 @@ article:hover {
 }
 img { 
     width : 50%;
-
+    display: inline-block;
 }
 h2 {
     width : 100%;
@@ -32,4 +32,10 @@ h2 {
 p{
     font-size: 14px;
     color: grey;
+    display: inline-block;
+    width : 30%;
+}
+span {
+    width : 30%;
+    display: inline-block;
 }
