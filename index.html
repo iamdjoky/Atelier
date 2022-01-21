@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+          <li><strong>Livrothèque</strong></li>
+        </ul>
+        <ul>
+          <li><a href="#">Catalogue</a></li>
+          <li><a href="#">Catégories</a></li>
+          <li><a href="#">Auteur</a></li>
+        </ul>
+      </nav>
+
+
+    <div class="Projet_Atelier_main_search">
+     <!-- input tag -->
+        <input id="searchbar" onkeyup="search_livres()" type="text"
+        name="search" placeholder="Rechercher un livre..">
+   
+ <!-- ordered list -->
+        <!-- <ol id='list'>
+            <li class="livres">Auteur</li>
+            <li class="livres">Catégories</li>
+            <li class="livres">Graphiste</li>
+            <li class="livres">Anglais</li>
+            <li class="livres">Titre</li>
+            <li class="livres">Editeur</li>
+            <li class="livres">Première Page</li>
+            <li class="livres">Note</li>
+        </ol> -->
+</div>
+
+<div id="grid"></div>
+ <!-- linking javascript -->
+ <script src="livres.js"></script>
+
+ <script src="jquery.js"></script>
+</body>
+</html>

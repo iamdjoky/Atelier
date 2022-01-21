@@ -1,0 +1,35 @@
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --primary: #d81b60;
+  --primary-hover: #c2185b;
+  --primary-focus: rgba(216, 27, 96, 0.125);
+  --primary-inverse: #FFF;
+}
+
+body 
+.Projet_Atelier_main_search {
+    width : 30%;
+    
+}
+
+article {
+    width : 15em;
+    height : 22em;
+    display: inline-block;
+    margin-left : 3%;
+}
+article:hover {
+    background-color: pink;
+}
+img { 
+    width : 50%;
+
+}
+h2 {
+    width : 100%;
+    font-size : 20px;
+}
+p{
+    font-size: 14px;
+    color: grey;
+}

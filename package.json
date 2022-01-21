@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@picocss/pico": "^1.4.4",
+    "airtable": "^0.11.1",
+    "jquery": "^3.6.0",
+    "node.js": "^0.0.1-security"
+  },
+  "name": "projet-atelier",
+  "version": "1.0.0",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
