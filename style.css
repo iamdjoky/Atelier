@@ -34,6 +34,7 @@ p{
     color: grey;
     display: inline-block;
     width : 30%;
+    margin-left: 5%;
 }
 span {
     width : 30%;
